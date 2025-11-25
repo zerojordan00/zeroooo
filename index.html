@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>ZERO</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+    body {
+      margin: 0;
+      height: 100vh;
+      background: radial-gradient(circle at center, #000000 60%, #050505 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 80px;
+      letter-spacing: 6px;
+      background: linear-gradient(90deg, #FFD700, #FFF3B0, #FFD700);
+      background-size: 200% auto;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: shine 4s linear infinite, fadeIn 2.5s ease forwards;
+      opacity: 0;
+      text-shadow: 0 0 25px rgba(255,215,0,0.4), 0 0 50px rgba(255,215,0,0.2);
+    }
+    @keyframes shine {
+      0% {background-position: 0% center;}
+      100% {background-position: 200% center;}
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: scale(0.8);}
+      100% {opacity: 1; transform: scale(1);}
+    }
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      animation: fadeIn 3s ease forwards;
+    }
+    a {
+      font-family: 'Cinzel', serif;
+      text-decoration: none;
+      font-size: 20px;
+      color: #000;
+      background: linear-gradient(90deg, #FFD700, #FFF3B0, #FFD700);
+      background-size: 200% auto;
+      border: none;
+      padding: 12px 45px;
+      border-radius: 40px;
+      text-align: center;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      animation: shine 4s linear infinite;
+      box-shadow: 0 0 20px rgba(255,215,0,0.3);
+    }
+    a:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 35px rgba(255,215,0,0.6);
+      background-position: 200% center;
+    }
+  </style>
+</head>
+<body>
+<h1>ZERO</h1>
+<div class="buttons">
+<a href="https://www.instagram.com/zero._sh00?igsh=MWh2amw2cHJwZzhzbw%3D%3D&amp;utm_source=qr" target="_blank">📸 Instagram</a>
+<a href="" target="_blank">👻 Snapchat</a>
+<a href="">📞 </a>
+</div>
+</body>
+</html>
